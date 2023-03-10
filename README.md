@@ -34,3 +34,7 @@ It's a tiny C++ program used to generate any given number of secure random strin
    1. Please keep the .exe file and .dll file in the same directory.
    2. The character set for the string is [A-Z]|[a-z]|[0-9].
    3. The version of Libsodium for current project is [1.0.17-stable-msvc (pre-built libraries)](https://download.libsodium.org/libsodium/releases/libsodium-1.0.17-stable-msvc.zip).
+   
+   ## 3 Supported Platforms
+   
+   - Windows (x64 & x86)
