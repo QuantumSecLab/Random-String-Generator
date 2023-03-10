@@ -19,8 +19,8 @@ int main()
 	else
 	{
 		char charSet[] = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		uint32_t cur = 0;
-		int length = 0, num = 0, mod = strlen(charSet);
+		uint32_t cur = 0, charSetCard = strlen(charSet);
+		int length = 0, num = 0;
 		char curChar = '1';
 
 		printf("Input the length of random string(s): \n");
@@ -34,8 +34,8 @@ int main()
 		{
 			for (int j = 0; j < length; j++)
 			{
-				cur = randombytes_random();
-				curChar = charSet[cur % mod];
+				cur = randombytes_uniform(charSetCard);
+				curChar = charSet[cur];
 				printf("%c", curChar);
 			}
 			printf("\n");
