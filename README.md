@@ -2,7 +2,7 @@
 
 ## 0 About the Project
 
-It's a tiny C++ program used to generate any given number of secure random strings in any give length.
+It's a tiny C++ program used to generate any given number of secure random strings in any given length.
 
 [Libsodium](https://github.com/jedisct1/libsodium) is used to generate secure random integers so you can use this program to generate strong passwords.
 
